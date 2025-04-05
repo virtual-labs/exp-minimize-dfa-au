@@ -29,7 +29,8 @@ The two popular methods for minimising a DFA are-
 <p?><b>Construct Minimised DFA:</b></p>
 
 <li>Use the merged states to construct the minimised DFA.</li>
-<li>Each merged group of states, representing an equivalence class, becomes a single state in the minimised DFA.</li>
+<li>Each merged group of states, representing an equivalence class, becomes a single state in the minimised DFA. </li>
+
 
 
 
