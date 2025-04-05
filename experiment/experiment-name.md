@@ -1,1 +1,1 @@
-<u><h4>Minimization of DFA</h4></u>
+<h4>Minimization of DFA</h4>

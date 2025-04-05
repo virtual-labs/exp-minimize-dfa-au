@@ -1,4 +1,4 @@
-<u><h3>Theory</h3></u>
+<h3>Theory</h3>
 <p>DFA minimization is the task of transforming a given deterministic finite automaton (DFA) into an equivalent DFA that has a minimum number of states. Here, two DFAs are called equivalent if they recognize the same regular language.
 </p>
 The two popular methods for minimising a DFA are-
