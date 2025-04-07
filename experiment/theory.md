@@ -16,6 +16,7 @@ The two popular methods for minimising a DFA are-
 </li>
 <p><b>Equivalence Class Identification:</b></p>
 
+
 <li>Iterate through the partitions and identify equivalence classes by analysing transitions from states within each partition.</li>
 <li>For each input symbol, determine the destination partition for the transitions from states within the current partition.</li>
 <li>States that lead to the same partition for a given input symbol are considered part of the same equivalence class for that input symbol.</li>

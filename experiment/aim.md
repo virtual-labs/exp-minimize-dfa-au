@@ -9,3 +9,4 @@
   <li><strong>Text Processing:</strong> Efficient pattern matching in text editors and search algorithms relies on minimized DFAs to quickly identify patterns within large bodies of text.</li>
 </ul>
 <p>By understanding and applying DFA minimization techniques, one can optimize various computational processes, leading to improvements in both software and hardware system designs.</p>
+

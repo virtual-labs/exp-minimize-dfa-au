@@ -18,6 +18,7 @@
 
 <div><img src="./images/zero.png" alt="DFA Minimization initiation"></div>
 
+
 <p>Select the "0<sup>th</sup> Equivalence" option and follow the on-screen instructions.</p>
 
 <div><img src="./images/one.png" alt="0th Equivalence step"></div>
