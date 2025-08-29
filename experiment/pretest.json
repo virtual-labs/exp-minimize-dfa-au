@@ -19,7 +19,6 @@
       "difficulty": "beginner"
     },
 
-    
     {
       "question": "What is the purpose of eliminating equivalent states during the minimization of a DFA?",
       "answers": {
@@ -53,6 +52,93 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
-    }
+    },
+    [
+      {
+        "question": "What is the main goal of DFA minimization?",
+        "answers": {
+          "a": "To increase the number of states.",
+          "b": "To remove unreachable states only.",
+          "c": "To transform a DFA into an equivalent DFA with the minimum number of states.",
+          "d": "To change the language recognized by the DFA."
+        },
+        "explanations": {
+          "a": "Incorrect. DFA minimization reduces states, not increases them.",
+          "b": "Partially correct, but minimization also merges equivalent states, not just unreachable ones.",
+          "c": "Correct! The purpose is to obtain an equivalent DFA with the minimum number of states.",
+          "d": "Incorrect. The language recognized must remain unchanged."
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Two DFAs are considered equivalent if:",
+        "answers": {
+          "a": "They have the same number of states.",
+          "b": "They recognize the same regular language.",
+          "c": "They have the same transition table.",
+          "d": "They both accept all strings."
+        },
+        "explanations": {
+          "a": "Incorrect. Number of states does not determine equivalence.",
+          "b": "Correct! Two DFAs are equivalent if they recognize the same language.",
+          "c": "Incorrect. DFAs may have different transitions but still recognize the same language.",
+          "d": "Incorrect. Accepting all strings is not the definition of equivalence."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "In the Partition Refinement method, the initial partition divides DFA states into:",
+        "answers": {
+          "a": "Start and non-start states.",
+          "b": "Accepting and non-accepting states.",
+          "c": "Dead states and live states.",
+          "d": "States with even and odd transitions."
+        },
+        "explanations": {
+          "a": "Incorrect. Partitioning is not based on the start state.",
+          "b": "Correct! Initially, states are divided into accepting and non-accepting states.",
+          "c": "Incorrect. Dead and live states come later in analysis.",
+          "d": "Incorrect. This is not a valid classification in minimization."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "In the Table-Filling method, which pairs of states are marked as distinguishable first?",
+        "answers": {
+          "a": "Pairs of start states.",
+          "b": "Pairs with the same transitions.",
+          "c": "Pairs where one is accepting and the other is not.",
+          "d": "Pairs of final states."
+        },
+        "explanations": {
+          "a": "Incorrect. Start states do not determine distinguishability.",
+          "b": "Incorrect. Same transitions do not automatically mark states as distinguishable.",
+          "c": "Correct! Accepting vs non-accepting states are always distinguishable.",
+          "d": "Incorrect. Final states together are not initially marked."
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The minimized DFA of a given regular language is:",
+        "answers": {
+          "a": "Always unique up to renaming of states.",
+          "b": "Not guaranteed to exist.",
+          "c": "Larger than the original DFA.",
+          "d": "Dependent on the minimization method used."
+        },
+        "explanations": {
+          "a": "Correct! The minimized DFA is unique up to renaming of states.",
+          "b": "Incorrect. A minimized DFA always exists for a regular language.",
+          "c": "Incorrect. Minimization reduces or keeps the same number of states, never increases.",
+          "d": "Incorrect. Both methods produce the same minimized DFA."
+        },
+        "correctAnswer": "a",
+        "difficulty": "intermediate"
+      }
+    ]
   ]
 }
