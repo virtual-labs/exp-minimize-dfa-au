@@ -138,6 +138,40 @@
         },
         "correctAnswer": "a",
         "difficulty": "intermediate"
+      },
+      {
+        "question": "Which of the following is a practical advantage of DFA minimization?",
+        "answers": {
+          "a": "It reduces memory usage in implementation.",
+          "b": "It increases the number of redundant transitions.",
+          "c": "It makes the DFA recognize more languages.",
+          "d": "It converts the DFA into an NFA."
+        },
+        "explanations": {
+          "a": "Correct! A minimized DFA uses fewer states, which means lower memory usage and faster execution.",
+          "b": "Incorrect. Minimization removes redundancy, not adds to it.",
+          "c": "Incorrect. The recognized language remains the same.",
+          "d": "Incorrect. Minimization does not convert DFA into NFA."
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What ensures that the minimized DFA is unique?",
+        "answers": {
+          "a": "The use of the Table-Filling method specifically.",
+          "b": "The use of the Partition Refinement method specifically.",
+          "c": "The fact that both methods always produce the same minimal DFA up to renaming of states.",
+          "d": "The minimized DFA is not guaranteed to be unique."
+        },
+        "explanations": {
+          "a": "Incorrect. The uniqueness does not depend on the method.",
+          "b": "Incorrect. Both methods lead to the same result.",
+          "c": "Correct! The minimized DFA is unique up to renaming of states, regardless of the method used.",
+          "d": "Incorrect. The minimized DFA is guaranteed to be unique."
+        },
+        "correctAnswer": "c",
+        "difficulty": "intermediate"
       }
     ]
   ]
