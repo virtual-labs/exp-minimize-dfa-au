@@ -19,7 +19,6 @@
       "difficulty": "beginner"
     },
 
-    
     {
       "question": "What is the purpose of eliminating equivalent states during the minimization of a DFA?",
       "answers": {
