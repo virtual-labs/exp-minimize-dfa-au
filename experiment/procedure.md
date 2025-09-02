@@ -1,14 +1,12 @@
-
-
 <h3>Procedure</h3>
 
 <p>Start by selecting the "DFA Minimization" option and carefully follow the provided instructions.</p>
 
 <div><img src="./images/dfaminimize.png" alt="DFA Minimization button"></div>
 
-<p>Next, click on the "DFA" button and choose "Example 1" to proceed.</p>
+<p>Click on ‘Select Example’ or ‘Add DFA’ to proceed.</p>
 
-<div><img src="./images/example.png" alt="Example 1 selection"></div>
+<div><img src="./images/step1.png" alt="Example 1 selection"></div>
 
 <p>Observe the generated graph and its corresponding transition table attentively.</p>
 
@@ -17,8 +15,6 @@
 <p>Proceed by clicking on the "DFA Minimization" button.</p>
 
 <div><img src="./images/zero.png" alt="DFA Minimization initiation"></div>
-
-
 
 <p>Select the "0<sup>th</sup> Equivalence" option and follow the on-screen instructions.</p>
 

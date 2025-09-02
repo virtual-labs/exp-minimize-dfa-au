@@ -15,11 +15,11 @@
         "c": "Incorrect. Try again.",
         "d": "Incorrect. Try again."
       },
-      
 
       "correctAnswer": "b",
       "difficulty": "intermediate"
-    }, {
+    },
+    {
       "question": "What is the impact of minimization on the size of a Deterministic Finite Automaton (DFA)?",
       "answers": {
         "a": "It always increases the size of the DFA.",
@@ -55,4 +55,3 @@
     }
   ]
 }
- 
