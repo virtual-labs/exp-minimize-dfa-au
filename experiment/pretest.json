@@ -2,174 +2,105 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following best describes the result of minimizing a Deterministic Finite Automaton (DFA)?",
+      "question": "In the context of Deterministic Finite Automaton (DFA), what is the purpose of minimization?",
       "answers": {
-        "a": "The language recognized by the DFA remains unchanged, but the DFA structure becomes more complex.",
-        "b": "The language recognized by the DFA is preserved, and the DFA structure is simplified with fewer states.",
-        "c": "Minimization always changes the recognized language to a more complex one.",
-        "d": "Minimization results in converting the DFA to a Non-Deterministic Finite Automaton (NFA)."
+        "a": "To increase the number of states for better recognition.",
+        "b": "To simplify and reduce the number of states while preserving the language accepted.",
+        "c": "To add more transitions for increased complexity.",
+        "d": "To convert DFA to NFA for easier analysis."
       },
       "explanations": {
-        "a": "Incorrect. Try again.",
-        "b": "Correct! Minimizing a DFA preserves the recognized language while simplifying the DFA structure with fewer states.",
-        "c": "Incorrect. Try again.",
-        "d": "Incorrect. Try again."
+        "a": "Incorrect. Minimization reduces, not increases, the number of states.",
+        "b": "Correct! Minimization of DFA is done to simplify and reduce the number of states while preserving the language accepted.",
+        "c": "Incorrect. Minimization eliminates redundancy, it does not increase complexity.",
+        "d": "Incorrect. Minimization keeps the DFA form."
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-
-    {
-      "question": "What is the purpose of eliminating equivalent states during the minimization of a DFA?",
-      "answers": {
-        "a": "To increase the complexity of the DFA.",
-        "b": "To reduce the number of states without changing the language recognized.",
-        "c": "To convert the DFA into a Regular Expression.",
-        "d": "To add more transitions for better recognition."
-      },
-      "explanations": {
-        "a": "Incorrect. Try again.",
-        "b": "Correct! Eliminating equivalent states reduces the number of states without changing the recognized language.",
-        "c": "Incorrect. Try again.",
-        "d": "Incorrect. Try again."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "When is it beneficial to minimize a Deterministic Finite Automaton (DFA) in practical applications?",
-      "answers": {
-        "a": "Minimization is always beneficial in all cases.",
-        "b": "It depends on the size of the original DFA and the application requirements.",
-        "c": "Minimization is only beneficial for non-regular languages.",
-        "d": "Minimization is irrelevant for DFA."
-      },
-      "explanations": {
-        "a": "Incorrect. Try again.",
-        "b": "Correct! The benefit of minimization depends on the size of the original DFA and the specific application requirements.",
-        "c": "Incorrect. Try again.",
-        "d": "Incorrect. Try again."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the main goal of DFA minimization?",
-      "answers": {
-        "a": "To increase the number of states.",
-        "b": "To remove unreachable states only.",
-        "c": "To transform a DFA into an equivalent DFA with the minimum number of states.",
-        "d": "To change the language recognized by the DFA."
-      },
-      "explanations": {
-        "a": "Incorrect. DFA minimization reduces states, not increases them.",
-        "b": "Partially correct, but minimization also merges equivalent states, not just unreachable ones.",
-        "c": "Correct! The purpose is to obtain an equivalent DFA with the minimum number of states.",
-        "d": "Incorrect. The language recognized must remain unchanged."
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Two DFAs are considered equivalent if:",
-      "answers": {
-        "a": "They have the same number of states.",
-        "b": "They recognize the same regular language.",
-        "c": "They have the same transition table.",
-        "d": "They both accept all strings."
-      },
-      "explanations": {
-        "a": "Incorrect. Number of states does not determine equivalence.",
-        "b": "Correct! Two DFAs are equivalent if they recognize the same language.",
-        "c": "Incorrect. DFAs may have different transitions but still recognize the same language.",
-        "d": "Incorrect. Accepting all strings is not the definition of equivalence."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "In the Partition Refinement method, the initial partition divides DFA states into:",
-      "answers": {
-        "a": "Start and non-start states.",
-        "b": "Accepting and non-accepting states.",
-        "c": "Dead states and live states.",
-        "d": "States with even and odd transitions."
-      },
-      "explanations": {
-        "a": "Incorrect. Partitioning is not based on the start state.",
-        "b": "Correct! Initially, states are divided into accepting and non-accepting states.",
-        "c": "Incorrect. Dead and live states come later in analysis.",
-        "d": "Incorrect. This is not a valid classification in minimization."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "In the Table-Filling method, which pairs of states are marked as distinguishable first?",
-      "answers": {
-        "a": "Pairs of start states.",
-        "b": "Pairs with the same transitions.",
-        "c": "Pairs where one is accepting and the other is not.",
-        "d": "Pairs of final states."
-      },
-      "explanations": {
-        "a": "Incorrect. Start states do not determine distinguishability.",
-        "b": "Incorrect. Same transitions do not automatically mark states as distinguishable.",
-        "c": "Correct! Accepting vs non-accepting states are always distinguishable.",
-        "d": "Incorrect. Final states together are not initially marked."
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "The minimized DFA of a given regular language is:",
-      "answers": {
-        "a": "Always unique up to renaming of states.",
-        "b": "Not guaranteed to exist.",
-        "c": "Larger than the original DFA.",
-        "d": "Dependent on the minimization method used."
-      },
-      "explanations": {
-        "a": "Correct! The minimized DFA is unique up to renaming of states.",
-        "b": "Incorrect. A minimized DFA always exists for a regular language.",
-        "c": "Incorrect. Minimization reduces or keeps the same number of states, never increases.",
-        "d": "Incorrect. Both methods produce the same minimized DFA."
-      },
-      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
-      "question": "Which of the following is a practical advantage of DFA minimization?",
+      "question": "What is the impact of minimization on the size of a Deterministic Finite Automaton (DFA)?",
       "answers": {
-        "a": "It reduces memory usage in implementation.",
-        "b": "It increases the number of redundant transitions.",
-        "c": "It makes the DFA recognize more languages.",
-        "d": "It converts the DFA into an NFA."
+        "a": "It always increases the size of the DFA.",
+        "b": "It reduces the size of the DFA by eliminating redundant states.",
+        "c": "It has no effect on the size of the DFA.",
+        "d": "It only affects the transition functions of the DFA."
       },
       "explanations": {
-        "a": "Correct! A minimized DFA uses fewer states, which means lower memory usage and faster execution.",
-        "b": "Incorrect. Minimization removes redundancy, not adds to it.",
-        "c": "Incorrect. The recognized language remains the same.",
-        "d": "Incorrect. Minimization does not convert DFA into NFA."
+        "a": "Incorrect. Minimization does not increase states.",
+        "b": "Correct! Minimization reduces the size of the DFA by eliminating redundant states while preserving the language.",
+        "c": "Incorrect. Minimization directly impacts state size.",
+        "d": "Incorrect. Both states and transitions are affected."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "What ensures that the minimized DFA is unique?",
+      "question": "When is a Deterministic Finite Automaton (DFA) considered minimized?",
       "answers": {
-        "a": "The use of the Table-Filling method specifically.",
-        "b": "The use of the Partition Refinement method specifically.",
-        "c": "The fact that both methods always produce the same minimal DFA up to renaming of states.",
-        "d": "The minimized DFA is not guaranteed to be unique."
+        "a": "When it has the maximum number of states.",
+        "b": "When it recognizes a regular language.",
+        "c": "When no equivalent DFA with fewer states can recognize the same language.",
+        "d": "When it contains only one state."
       },
       "explanations": {
-        "a": "Incorrect. The uniqueness does not depend on the method.",
-        "b": "Incorrect. Both methods lead to the same result.",
-        "c": "Correct! The minimized DFA is unique up to renaming of states, regardless of the method used.",
-        "d": "Incorrect. The minimized DFA is guaranteed to be unique."
+        "a": "Incorrect. The goal is to reduce states, not maximize.",
+        "b": "Incorrect. Every DFA recognizes a regular language, minimized or not.",
+        "c": "Correct! A DFA is minimized when no equivalent DFA with fewer states exists.",
+        "d": "Incorrect. One-state DFAs are not always possible."
       },
       "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the first step in DFA minimization using the Equivalence Theorem (Partition Refinement Method)?",
+      "answers": {
+        "a": "Merge all states into a single state.",
+        "b": "Partition the states into accepting and non-accepting groups.",
+        "c": "Construct the minimized DFA directly.",
+        "d": "Mark distinguishable pairs of states."
+      },
+      "explanations": {
+        "a": "Incorrect. Merging all states is not valid.",
+        "b": "Correct! The first step is partitioning states into accepting and non-accepting groups.",
+        "c": "Incorrect. The minimized DFA is the result, not the first step.",
+        "d": "Incorrect. Marking pairs is part of the table-filling method, not partition refinement."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the Table-Filling Method for DFA minimization, which pairs of states are initially marked as distinguishable?",
+      "answers": {
+        "a": "States that have the same transitions.",
+        "b": "Pairs where one is an accepting state and the other is not.",
+        "c": "All state pairs.",
+        "d": "Pairs that belong to the same equivalence class."
+      },
+      "explanations": {
+        "a": "Incorrect. Equivalent transitions do not mark states distinguishable.",
+        "b": "Correct! Accepting vs. non-accepting pairs are initially marked as distinguishable.",
+        "c": "Incorrect. Not all pairs are marked at the start.",
+        "d": "Incorrect. Equivalence classes are found later."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is DFA minimization important in practical applications?",
+      "answers": {
+        "a": "It guarantees faster computations by always reducing time complexity.",
+        "b": "It removes redundant states, creates efficient DFAs, and ensures a unique canonical representation.",
+        "c": "It converts any DFA into an equivalent NFA.",
+        "d": "It increases the readability of the DFA diagram."
+      },
+      "explanations": {
+        "a": "Incorrect. Minimization does not always reduce time complexity, but reduces states.",
+        "b": "Correct! Minimization removes redundancy, makes DFAs efficient, and guarantees uniqueness.",
+        "c": "Incorrect. Minimization does not convert to NFA.",
+        "d": "Incorrect. Readability is not the primary goal."
+      },
+      "correctAnswer": "b",
       "difficulty": "intermediate"
     }
   ]

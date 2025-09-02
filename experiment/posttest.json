@@ -15,7 +15,6 @@
         "c": "Incorrect. Try again.",
         "d": "Incorrect. Try again."
       },
-
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
@@ -51,6 +50,57 @@
         "d": "Incorrect. Try again."
       },
       "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which classical algorithm is most commonly used for DFA minimization?",
+      "answers": {
+        "a": "Moore’s Algorithm",
+        "b": "Dijkstra’s Algorithm",
+        "c": "Prim’s Algorithm",
+        "d": "Kruskal’s Algorithm"
+      },
+      "explanations": {
+        "a": "Correct! Moore’s Algorithm is one of the earliest and most common approaches to DFA minimization.",
+        "b": "Incorrect. Dijkstra’s Algorithm is for shortest paths, not DFA minimization.",
+        "c": "Incorrect. Prim’s Algorithm is for minimum spanning trees.",
+        "d": "Incorrect. Kruskal’s Algorithm is for minimum spanning trees."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the time complexity of Hopcroft’s DFA minimization algorithm?",
+      "answers": {
+        "a": "O(n)",
+        "b": "O(n log n)",
+        "c": "O(n^2)",
+        "d": "O(n log m), where n is states and m is transitions"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Hopcroft’s algorithm runs in O(n log n), making it very efficient compared to Moore’s algorithm.",
+        "c": "Incorrect. This is the complexity of simpler approaches.",
+        "d": "Incorrect. Not the correct complexity."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is DFA minimization important in compiler design?",
+      "answers": {
+        "a": "It ensures faster lexical analysis by reducing state checks.",
+        "b": "It increases the complexity of transition functions.",
+        "c": "It helps convert context-free grammar into DFA.",
+        "d": "It eliminates nondeterminism in NFAs."
+      },
+      "explanations": {
+        "a": "Correct! Minimization helps compilers perform lexical analysis faster and with fewer resources.",
+        "b": "Incorrect. DFA minimization simplifies, not complicates.",
+        "c": "Incorrect. This relates to grammar parsing, not DFA minimization.",
+        "d": "Incorrect. DFA minimization deals with reducing DFA size, not converting NFAs."
+      },
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     }
   ]
