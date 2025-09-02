@@ -3,7 +3,7 @@
 </p>
 The two popular methods for minimising a DFA are-
 <div><img src="./images/types.png" alt="types of method"></div>
-<h3>1. Minimization of DFA Using Equivalence Theorem (Partition Refinement Method):</h3>
+<h4>1. Minimization of DFA Using Equivalence Theorem (Partition Refinement Method):</h4>
 <p>
 The Equivalence Theorem provides a method for minimizing a Deterministic Finite Automaton (DFA) 
 by identifying and merging equivalent states.
@@ -36,7 +36,7 @@ by identifying and merging equivalent states.
 
 <br>
 
-<h3>2. Minimization of DFA Using Table-Filling Method:</h3>
+<h4>2. Minimization of DFA Using Table-Filling Method:</h4>
 <p>
 This is another common algorithm for DFA minimization, which works by marking distinguishable state pairs.
 </p>
