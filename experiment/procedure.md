@@ -1,4 +1,3 @@
-<h3>Procedure</h3>
 
 <p>Start by selecting the "DFA Minimization" option and carefully follow the provided instructions.</p>
 
