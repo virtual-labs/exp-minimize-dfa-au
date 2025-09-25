@@ -1,4 +1,4 @@
-<h3>Aim of the experiment</h3>
+
 <p>The objective of this experiment is to demonstrate the process of minimizing a Deterministic Finite Automaton (DFA) by eliminating redundant states, resulting in an equivalent DFA with the minimal number of states. This minimization ensures that the DFA operates efficiently while preserving its language recognition capabilities.</p>
 
 <p>Minimizing DFAs has several practical applications:</p>
