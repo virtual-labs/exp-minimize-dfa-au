@@ -2,38 +2,106 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In the context of Deterministic Finite Automaton (DFA), what is the purpose of minimization?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To increase the number of states for better recognition.",
+        "b": "To simplify and reduce the number of states while preserving the language accepted.",
+        "c": "To add more transitions for increased complexity.",
+        "d": "To convert DFA to NFA for easier analysis."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Minimization of DFA is done to simplify and reduce the number of states while preserving the language accepted.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the impact of minimization on the size of a Deterministic Finite Automaton (DFA)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It always increases the size of the DFA.",
+        "b": "It reduces the size of the DFA by eliminating redundant states.",
+        "c": "It has no effect on the size of the DFA.",
+        "d": "It only affects the transition functions of the DFA."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Minimization reduces the size of the DFA by eliminating redundant states while preserving the language.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "When is a Deterministic Finite Automaton (DFA) considered minimized?",
+      "answers": {
+        "a": "When it has the maximum number of states.",
+        "b": "When it recognizes a regular language.",
+        "c": "When no equivalent DFA with fewer states can recognize the same language.",
+        "d": "When it contains only one state."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! A DFA is considered minimized when no equivalent DFA with fewer states can recognize the same language.",
+        "d": "Incorrect. Try again."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which classical algorithm is most commonly used for DFA minimization?",
+      "answers": {
+        "a": "Moore’s Algorithm",
+        "b": "Dijkstra’s Algorithm",
+        "c": "Prim’s Algorithm",
+        "d": "Kruskal’s Algorithm"
+      },
+      "explanations": {
+        "a": "Correct! Moore’s Algorithm is one of the earliest and most common approaches to DFA minimization.",
+        "b": "Incorrect. Dijkstra’s Algorithm is for shortest paths, not DFA minimization.",
+        "c": "Incorrect. Prim’s Algorithm is for minimum spanning trees.",
+        "d": "Incorrect. Kruskal’s Algorithm is for minimum spanning trees."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the time complexity of Hopcroft’s DFA minimization algorithm?",
+      "answers": {
+        "a": "O(n)",
+        "b": "O(n log n)",
+        "c": "O(n^2)",
+        "d": "O(n log m), where n is states and m is transitions"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Hopcroft’s algorithm runs in O(n log n), making it very efficient compared to Moore’s algorithm.",
+        "c": "Incorrect. This is the complexity of simpler approaches.",
+        "d": "Incorrect. Not the correct complexity."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is DFA minimization important in compiler design?",
+      "answers": {
+        "a": "It ensures faster lexical analysis by reducing state checks.",
+        "b": "It increases the complexity of transition functions.",
+        "c": "It helps convert context-free grammar into DFA.",
+        "d": "It eliminates nondeterminism in NFAs."
+      },
+      "explanations": {
+        "a": "Correct! Minimization helps compilers perform lexical analysis faster and with fewer resources.",
+        "b": "Incorrect. DFA minimization simplifies, not complicates.",
+        "c": "Incorrect. This relates to grammar parsing, not DFA minimization.",
+        "d": "Incorrect. DFA minimization deals with reducing DFA size, not converting NFAs."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
